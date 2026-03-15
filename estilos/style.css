@@ -86,7 +86,7 @@ body {
     color: var(--cor-primaria);
     font-family: "Montserrat", sans-serif;
 }
-.apresentacao__conteudo__links__item:hover {
+.apresentacao__conteudo__links__navegacao:hover {
     background-color: var(--cor-secundaria);
     color: var(--cor-fundo);
     transition: 0.3s;
