@@ -517,9 +517,12 @@ p {
         gap: 24px;
     }
 
+    .apresentacao__conteudo {
+        width: 100%;
+      }
     .apresentacao__conteudo__texto {
-        font-size: 0.95rem;
-        padding: 20px;
+        font-size: 0.80rem;
+        padding: 10px;
     }
 
     .skillsGrid {
