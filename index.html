@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio — Paola Lorenzi</title>
+    <meta name="description" content="Portfólio de Paola Lorenzi, desenvolvedora Front-end especializada em HTML, CSS e JavaScript.">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo</a>
+
+    <header class="header" role="banner">
+        <div class="header__logo" aria-label="Logo Paola Lorenzi">
+            <span aria-hidden="true">pl</span>
+        </div>
+
+        <nav class="navegacao" aria-label="Menu principal">
+            <a href="index.html" class="navegacao_links ativo" aria-current="page">Home</a>
+            <a href="https://github.com/lolalorenzi" target="_blank" class="navegacao_links" rel="noopener noreferrer" aria-label="GitHub (abre em nova aba)">GitHub</a>
+            <a href="projetos.html" class="navegacao_links">Projetos</a>
+            <a href="https://www.linkedin.com/in/paola-lorenzi-52805831b/" target="_blank" class="navegacao_links" rel="noopener noreferrer" aria-label="LinkedIn (abre em nova aba)">Linkedin</a>
+        </nav>
+
+        <a href="https://www.linkedin.com/in/paola-lorenzi-52805831b/" target="_blank" class="header__cta" rel="noopener noreferrer" aria-label="Fale comigo no LinkedIn">Fale comigo</a>
+    </header>
+
+    <main id="conteudo-principal">
+        <section class="apresentacao" aria-labelledby="titulo-apresentacao">
+
+            <div class="apresentacao__conteudo">
+                <img class="foto-perfil" src="assets/image.png" alt="Foto de Paola Lorenzi sorrindo">
+                <h1 id="titulo-apresentacao" class="titulo-destaque">Olá, eu sou a Paola!</h1>
+                <p class="apresentacao__conteudo__texto">
+                    Estou no terceiro semestre de Análise e Desenvolvimento de Sistemas e 
+                    em busca da minha primeira experiência na área.
+                    <br>Sou apaixonada por tecnologia e estou sempre em busca de aprender coisas novas.
+                    <br>Tenho experiência com HTML, CSS e JavaScript! Estou animada para aplicar meus conhecimentos em projetos reais.
+                </p>
+            </div>
+
+            <section aria-labelledby="titulo-skills">
+                <h2 id="titulo-skills">Skills e Tecnologias</h2>
+                <div class="skillsGrid">
+                    <div class="skillsCard">
+                        <h3>Linguagens</h3>
+                        <ul class="tags" aria-label="Linguagens de programação">
+                            <li class="tag">HTML</li>
+                            <li class="tag">CSS</li>
+                            <li class="tag">JavaScript</li>
+                            <li class="tag">React</li>
+                        </ul>
+                    </div>
+
+                    <div class="skillsCard">
+                        <h3>Ferramentas</h3>
+                        <ul class="tags" aria-label="Ferramentas de desenvolvimento">
+                            <li class="tag">Git</li>
+                            <li class="tag">VSCode</li>
+                            <li class="tag">Npm</li>
+                            <li class="tag">GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <p>Desenvolvido por Paola Lorenzi</p>
+    </footer>
+
+</body>
+</html>
